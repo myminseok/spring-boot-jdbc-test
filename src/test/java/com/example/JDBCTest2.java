@@ -17,6 +17,12 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+/**
+ * https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html
+ * 
+ * @author kimm5
+ *
+ */
 @RunWith(SpringRunner.class)
 //@SpringBootTest
 @AutoConfigureTestDatabase
