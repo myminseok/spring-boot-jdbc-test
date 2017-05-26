@@ -1,0 +1,14 @@
+security:
+  basic:
+    enabled: false
+  user:
+    password: 
+    
+spring:
+  application:
+    name: spring-boot-jdbc-test
+
+management:
+  security:
+    enabled: false
+    
