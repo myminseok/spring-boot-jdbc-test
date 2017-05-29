@@ -1,14 +1,16 @@
 security:
   basic:
     enabled: false
-  user:
-    password: 
+    
+management:
+  security:
+    enabled: false
     
 spring:
   application:
     name: spring-boot-jdbc-test
 
-management:
-  security:
-    enabled: false
-    
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true   
